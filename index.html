@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Journal Entries</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Bas Beeuwsaert">
+        <link rel="shortcut icon" type="image/png" href="screenshots/journal_favicon.png"/>
+    </head>
+
+    <body>
+    <main>
+        <h1>Journal</h1>
+
+        <nav class="navigation">
+            <ol>
+                <li class="navigation"><a href="#Friday-Entry">Friday Entry</a></li>
+                <li class="navigation"><a href="#Saturday-Entry">Saturday Entry</a></li>
+                <li class="navigation"><a href="#Sunday-Entry">Sunday Entry</a></li>
+            </ol>
+        </nav>
+
+        <div class="Things-that-happened-Friday">
+            <section>
+            <h3 id="Friday-Entry"><i>Friday</i>, April 9 (4/9/2021)</h3>
+
+            <h4><strong>Highlights and Lowlights:</strong></h4>
+
+            <ul>
+                <li>Highlight: went for a hike</li>
+                <li>Highlight: met a cute dog</li>
+                <li>Highlight: got some pastries from a bakery</li>
+                <li>Lowlight : got a flat tire</li>
+                <li>Lowlight : ripped my favorite shirt</li>
+            </ul>
+
+            <p><b>Friday</b> was very eventful. I went for a hike and met a cute dog. However, on the way to get food from a bakery, I got a flat tire.</p>
+
+        </section>
+        </div>
+
+    <hr>
+
+        <div class="Things-that-happened-Saturday">
+            <section>
+            <h3 id="Saturday-Entry"><i>Saturday</i>, April 10 (4/10/2021)</h3>
+
+            <h4><strong>Highlights and Lowlights:</strong></h4>
+
+            <ul>
+                <li>Highlight: caught up with friends</li>
+                <li>Highlight: ate my favorite food</li>
+                <li>Lowlight : didn't get enough sleep</li>
+            </ul>
+
+            <p><b>Saturday</b> was fun. I met with friends and we ate one of my favorite foods. However, sometimes it was hard to enjoy my time because I was sleep deprived.</p>
+
+        </section>
+        </div>
+
+    <hr>
+
+        <div class="Things-that-happened-Sunday">
+            <section>
+            <h3 id="Sunday-Entry"><i>Sunday</i>, April 11 (4/11/2021)</h3>
+
+            <h4><strong>Highlights and Lowlights:</strong></h4>
+
+            <ul>
+                <li>Highlight: had a good breakfast</li>
+                <li>Lowlight : had to work the whole day</li>
+            </ul>
+
+            <p><b>Sunday</b> was fairly straightforward. I had a full breakfast of eggs, bacon, and toast. However, I spent most of today working, so I didn't have a lot of time to myself.</p>
+
+        </section>
+        </div>
+
+    <hr>
+    
+    <details>
+        <summary>Song, video, and image</summary>
+        <p>Here is my fovorite song at the moment:</p>
+        <audio controls>
+            <source src="screenshots/Mr_Blue_Sky.mp3" type="audio/mpeg">
+        </audio>
+
+        <br>
+
+        <p>And here is my rabbit:</p>
+        <video width="320" height="240" controls>
+            <source src="screenshots/Bunny.mp4" type="video/mp4">
+        </video>
+
+        <br>
+
+        <img src="screenshots/HTML_Meme.jpg" alt="HTML Meme">
+    </details>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <input type="checkbox" id="day1" name="day1" value="Sunday">
+            <label for="day1"> Sunday</label><br>
+            <input type="checkbox" id="day2" name="day2" value="Monday">
+            <label for="day2"> Monday</label><br>
+            <input type="checkbox" id="day3" name="day3" value="Tuesday">
+            <label for="day3"> Tuesday</label><br>
+            <input type="checkbox" id="day4" name="day4" value="Wednesday">
+            <label for="day4"> Wednesday</label><br>
+            <input type="checkbox" id="day5" name="day5" value="Thursday">
+            <label for="day5"> Thursday</label><br>
+            <input type="checkbox" id="day6" name="day6" value="Friday">
+            <label for="day6"> Friday</label><br>
+            <input type="checkbox" id="day7" name="day7" value="Saturday">
+            <label for="day7"> Saturday</label><br><br>
+            <input type="submit" value="Add"><br><br>
+
+            <p>Add a song, video, or image:</p>
+            <div>
+                <input type="radio" id="song" name="file" value="song"
+                       checked>
+                <label for="song">Song</label>
+            </div>
+              
+            <div>
+                <input type="radio" id="video" name="file" value="video">
+                <label for="video">Video</label>
+            </div>
+              
+            <div>
+                <input type="radio" id="image" name="file" value="image">
+                <label for="image">Image</label>
+            </div>
+
+            <p>Add a highlight or lowlight of the day:</p>
+            <label for="description">Highlight or Lowlight:</label>
+            <input type="text" id="description" name="description"><br><br>
+            <input type="submit" value="Submit">
+
+            <p>Add a new date:</p>
+            <input type="date" id="Date" name="new-date"><br><br>
+        </fieldset>
+    </form>
+
+    <footer>
+        <p>Author: <em>Bas Beeuwsaert</em><br>
+    </footer>
+
+    </main>
+    </body>
+</html>
