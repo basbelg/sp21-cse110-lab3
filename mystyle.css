@@ -1,0 +1,52 @@
+h1 {
+    position: static;
+    color: rgb(206, 21, 15);
+    background-color: hsl(90, 45%, 50%);;
+}
+
+h3 {
+    color: #FF0000 /* Red's hex code */
+}
+
+h4 {
+    color: hsl(90, 45%, 50%);
+}
+
+
+li {
+    color: red /* Another way to get the color red */
+}
+
+ol {
+    display: inline-block;
+}
+
+.block,
+ul {
+    position: relative;
+    border: 1px solid blue;
+    border-radius: 1px;
+    padding: 0.5em;
+}
+
+.block {
+    display: block;
+}
+
+p {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2em;
+}
+
+div {
+    font-size: 15pt;
+    border: 1cm;
+}
+
+summary {
+    line-height: 2vmax;
+    font-size: 3vh;
+}
